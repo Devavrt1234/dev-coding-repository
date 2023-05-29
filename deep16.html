@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        *{
+            margin: 1px;
+        } 
+       
+        .navbar{
+            background-color: rgb(15, 14, 15);
+            border: 6px solid rgb(88, 44, 110);
+            border-radius:30px;
+            height:26px;
+
+            
+        }
+        .navbar ul{
+          
+            height: inherit;
+        }
+        .navbar li{
+            float:left;
+            list-style: none;
+            margin-top: 3px;
+           
+        }
+        .navbar li a{
+            padding:10px;
+            text-decoration: none;
+            color:rgb(236, 233, 225);
+            
+           
+        }
+        .navbar li a:hover{
+            color:rgb(154, 26, 176);
+        }
+        .search {
+            float:right;
+            color:white;
+            margin-right:64px;
+        
+            
+        }
+        .navbar input{
+            border: 2px solid rgb(174, 61, 17);
+            border-radius:15px;
+            width:179px;
+            height:12px;
+            padding:2px;
+        }
+    </style>
+</head>
+<body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://www.youtube.com" target="_blank">Home</a></li>
+                <li><a href="https://leetcode.com" target="_blank">About us</a></li>
+                <li><a href="https://www.amazon.com" target="_blank">Services</a></li>
+                <li><a href="https://www.wikipedia.com" target="_blank">Contact us</a></li>
+          <div class="search">
+                   <a href="https://www.udemy.com" target="_blank"><input type="text" name="search" id="search" placeholder=" to go to udemy click on me">
+                   </div></a> 
+            </ul>
+        </nav>
+</body>
+</html>

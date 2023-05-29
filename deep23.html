@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On selector</title>
+    <style>
+        h1{
+            background-color: red;
+            color:black;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* if p is contained by any li which is contained by div */
+        /* .row li p{
+            color:rgb(255, 132, 0);
+            background-color: green;
+            font-weight:bold;
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* flex-direction:row-reverse;  
+        } */
+         /* .container {
+            background-color: rgb(77, 255, 0);
+            color:black;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            /* flex-direction:row-reverse; */
+            /* flex-direction: column;  
+        } */
+        
+        /* if p is right inside div then this CSS will be applied*/
+        /* div > p{
+            color:yellow;
+            font-weight: boid;
+            background-color: green;
+            font-size:35px;
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* flex-direction:row-reverse; 
+        } */
+        /* div li+ p {
+            background-color: blueviolet;
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* flex-direction:row-reverse; 
+        } */
+        /* /if p is right after div i.e p is next sibling of div */
+        /* div + p{
+          color:rgb(18, 18, 18);
+          background-color: rgb(221, 255, 0);
+          display: flex;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+             /* flex-direction:row-reverse; 
+        } */
+        /* div li+ li {
+            background-color: blueviolet;
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* flex-direction:row-reverse; 
+        } */
+
+
+    </style>
+</head>
+<body>
+    <h1>This is more on selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is another paragraph inside li</p></li>
+                <li>this is not affected</li>
+                <p>this is also not affected</p>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>
+        this is outermost paragraph.
+    </p>
+</body>
+</html>

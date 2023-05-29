@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is html form implementation</h2>
+    <form action="backend.php">
+        <div>
+            <label for="myName">Name:</label>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="myName" id="myName">
+        </div>
+        <br>
+        <div>
+            <label for="myRole">Role:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="myRole" id="myRole">
+        </div>
+        <br>
+        <div>
+            <label for="myEmail">Email:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="myEmail" id="myEmail">
+        </div>
+        <br>
+        <div>
+            <label for="myDate">Date Of Birth:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="myDate" id="myDate">
+        </div>
+        <br>
+        <div>
+            <label for="myBonus"> BONUS:</label>
+            &nbsp;<input type="number" name="myBonus" id="myBonus">
+        </div>
+        <div>
+            <label for="myeligibility">Are you eligible ?:</label>
+            <input type="checkbox" name="myeligibility" id="myeligibility">
+        </div>
+        <div>
+            Gender:
+            <label for="myGender"> Male </label>
+            <input type="radio" name="myGender" id="myGender"> 
+            Female<input type="radio" name="myGender" >
+            Other<input type="radio" name="myGender">
+        </div>
+        <div>
+            <label for="mytext">Write about youself:</label>
+            <br><textarea name="mytext" cols="20" rows="20" id="mytext"></textarea>
+        </div>
+        <div>
+            <label for="myCar">Select your Car</label>
+            <select name="Mycar" id="myCar">
+                <option value="B.M.W">B.M.W</option>
+                <option value="Bugati Veyron" selected>Bugati Veyron</option>
+                <option value="Audi">Audi</option>
+            </select>
+        <br>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+
+</html>

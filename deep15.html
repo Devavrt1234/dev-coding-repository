@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo selectors & more designing</title>
+    <style>
+      .container{
+        border: 2px solid rgb(41, 40, 42);
+        background-color: rgb(231, 187, 11);
+        padding:34px 34px 34px 34px;
+        margin:34px 34px 34px 34px;
+        width: 666px;
+      }
+      a{
+        text-decoration: none;/*to remove underline from the link*/
+        color:black;
+      }
+      a:hover{
+        color:black;
+        background-color: rgb(21, 147, 210);
+      }
+      a:visited{
+        background-color: rgb(173, 14, 218);
+      }
+     
+      a:active{
+        background-color: rgb(71, 226, 24);
+      }
+      .btn{
+        background-color: red;
+        border:3px solid rgb(255, 119, 0);
+        cursor:pointer;
+        font-size:12px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius:4px;
+        font-weight: bold;
+        padding:4px;
+      }
+      .btn1{
+        background-color: red;
+        border:3px solid rgb(255, 119, 0);;
+        cursor:pointer;
+        font-size:12px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius:4px;
+        font-weight: bold;
+        padding:4px;
+        
+      }
+      .btn:hover{
+        background-color: rgb(18, 169, 33);
+        border: 2px solid black ;
+        padding:4px;
+      }
+      .btn1:hover{
+        background-color: rgb(18, 169, 33);
+        border: 2px solid black ;
+        font-family:sans-serif;
+        font-weight:bold;
+        border: 2px solid black;
+        border-radius:4px;
+        padding:4px;
+         }
+       .btn2{
+        background-color: rgb(0, 255, 13);
+        border:3px solid rgb(255, 119, 0);
+        cursor:pointer;
+        font-size:12px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius:4px;
+        font-weight: bold;
+        padding:4px;
+       }
+       .btn2:hover{
+        background-color: rgb(18, 169, 33);
+        border: 2px solid black ;
+        font-family:sans-serif;
+        font-weight:bold;
+        border: 2px solid black;
+        border-radius:4px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sapiente inventore ratione accusantium ipsam ex voluptatem voluptatum nisi officia numquam doloremque nobis molestias maxime voluptates modi, illum ipsum quam, quasi corporis.
+        </p>
+        <a href="https:\\www.amazon.com" class="btn" target="_blank" >go to amazon</a>
+        <a href="https:\\www.flipkart.com" class="btn1" target="_blank" >go to flipkart</a>
+        <a href="https://www.Google.com" target="_blank" class="btn2">Go to Google</a>
+    </div>
+</body>
+</html>
